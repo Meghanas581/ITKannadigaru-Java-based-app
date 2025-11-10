@@ -43,6 +43,8 @@ pipeline{
         stage('Docker-testing'){
             steps{
                 sh '''
+                    docker kill itkannadigaru-blogpost-test
+                    docker rm itkannadigaru-blogpost-test
                     docker run -it -d --name itkannadigaru-blogpost-test -p 9000:8080 ${IMAGE_NAME}
                 '''
             }

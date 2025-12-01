@@ -25,7 +25,7 @@ public class DashboardController {
         model.addAttribute("username", authentication.getName());
         model.addAttribute("post", new Post());
 
-        // Get all posts for display
+        // Get all posts for display mypassword is
         List<Post> posts = postService.getAllPosts();
         model.addAttribute("posts", posts);
 

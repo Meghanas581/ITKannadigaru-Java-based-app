@@ -1,0 +1,25 @@
+fileignoreconfig:
+- filename: src/main/resources/schema.sql
+  checksum: 4191910c228da9b9d3cfe7c6046182993e8e87a620d228b18bdda038a92be1e1
+- filename: itkannadigaru.db
+  checksum: 711761ed193694878995af74171780de115c8036caee71cda911b2d6d4ee9d0a
+- filename: sec-files/file-2.txt
+  checksum: 394ccbcd00738036d06f05ffa4dced702c2102cb0501997f18a7b46e12cc8dae
+- filename: src/main/java/com/itkannadigaru/controller/AuthController.java
+  checksum: 856b7e48abb40cc96a0ac1044a353245af46a47e055cc94a57a2138197ea4310
+- filename: src/main/java/com/itkannadigaru/model/User.java
+  checksum: 57f1a88cc5195d688bd75225272e71b3d42116ca03cc76919b2cdabb7426ccd2
+- filename: src/main/java/com/itkannadigaru/repository/PostRepository.java
+  checksum: 794aca285cfd3d9f735bd9121dcda7c548593f777418a32d1030484dc2ef1868
+- filename: src/main/java/com/itkannadigaru/security/SecurityConfig.java
+  checksum: fb155a43f8e3f8c42121ec051bb66ed85e6c69a9143ddc63d5606a7b4f294be4
+- filename: src/main/java/com/itkannadigaru/service/UserService.java
+  checksum: 9350840914df54b963f4d48bfad4eb44843d04420b2792d7bfdfdf4c6470d622
+- filename: src/main/resources/templates/login.html
+  checksum: 1fec9c373f24507d31c974cca3284776c1b09619e647e5c43da53567535c4e18
+- filename: src/main/resources/templates/register.html
+  checksum: f79c0b8acdac1490d0d5e167b3607e6fedbacc687e7a0c1c4abf0ee6a4437f2b
+- filename: src/main/webapp/login.jsp
+  checksum: 961e65db8293d98a4b054f28fd9a213a0f22ec7e65a40de02600d30f8d4c3ed6
+- filename: src/main/webapp/register.jsp
+  checksum: b85dd0cc1d505b9b5df442241d450c4b36a304b858ff38b2cdc794ac2f802dbc

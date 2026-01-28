@@ -16,7 +16,7 @@ pipeline{
     stages{
         stage('git-checkout'){
             steps{
-                git url: 'https://github.com/ManojKRISHNAPPA/ITKannadigaru-Java-based-app.git', branch: 'prod'
+                git url: 'https://github.com/ManojKRISHNAPPA/ITKannadigaru-Java-based-app.gi', branch: 'prod'
             }
             
         }

@@ -7,7 +7,7 @@ pipeline{
     }
 
     environment {
-        IMAGE_NAME = "Meghanas581/itkannadigaru-blogpost:${GIT_COMMIT}"
+        IMAGE_NAME = "meghanas581/itkannadigaru-blogpost:${GIT_COMMIT}"
         AWS_REGION = "us-east-1"
         CLUSTER_NAME = "itkannadigaru-cluster"
         NAMESPACE = "itkannadigaru"

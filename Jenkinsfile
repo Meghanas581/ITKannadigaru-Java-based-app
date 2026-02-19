@@ -7,8 +7,8 @@ pipeline{
     }
 
     environment {
-        IMAGE_NAME = "manojkrishnappa/itkannadigaru-blogpost:${GIT_COMMIT}"
-        AWS_REGION = "us-west-2"
+        IMAGE_NAME = "Meghanas581/itkannadigaru-blogpost:${GIT_COMMIT}"
+        AWS_REGION = "us-east-1"
         CLUSTER_NAME = "itkannadigaru-cluster"
         NAMESPACE = "itkannadigaru"
     }
@@ -16,7 +16,7 @@ pipeline{
     stages{
         stage('git-checkout'){
             steps{
-                git url: 'https://github.com/ManojKRISHNAPPA/ITKannadigaru-Java-based-app.git', branch: 'prod'
+                git url: 'https://github.com/Meghanas581/ITKannadigaru-Java-based-app.git', branch: 'prod'
             }
             
         }
